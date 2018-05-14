@@ -1,0 +1,125 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <table id="team-template">
+    <tr id="team-1" class="team">
+      <td valign="top">
+        <table>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Team</td>
+            <td class="input-col">
+              <input class="team-name" type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>Players</td>
+            <td>
+              <input class="team-players" type="text" value="">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="button">Calc Metrics</button>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top">
+        <table>
+          <tr>
+            <td></td>
+            <td>Round 1</td>
+            <td>Round 2</td>
+          </tr>
+          <tr>
+            <td>TP</td>
+            <td class="input-col">
+              <input class="round1-team-tp" type="text" value="">
+            </td>
+            <td class="input-col">
+              <input class="round2-team-tp" type="text" value="">
+            </td>
+          </tr>
+          <tr>
+            <td>WIP</td>
+            <td>
+              <input class="round1-team-wip" type="text" value="">
+            </td>
+            <td>
+              <input class="round2-team-wip" type="text" value="">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <div class="sub-title">Timesheet </div>
+              <input class="team-timesheet" type="text" value="">
+            </td>
+            <td>
+              <div class="sub-title">Total LT</div>
+              <input class="team-lead-time" type="text" value="">
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top" class="team-results">
+        <table>
+          <tr>
+            <td class="output-title">Results</td>
+            <td class="output-col">Round 1</td>
+            <td class="output-col">Round 2</td>
+          </tr>
+          <tr>
+            <td class="output-title-item">Lead Time (days)</td>
+            <td>
+              <span class="round1-lead-time"></span></td>
+            <td>
+              <span class="round2-lead-time"></span></td>
+          </tr>
+          <tr>
+            <td class="output-title-item">Avg. Touch Time</td>
+            <td>
+              <span class="round1-avg-touch-time"></span>
+            </td>
+            <td>
+              <span class="round2-avg-touch-time"></span>
+            </td>
+          </tr>
+          <tr>
+            <td class="output-title-item">Flow Efficiency (%)</td>
+            <td>
+              <span class="round1-flow-eff"></span></td>
+            <td>
+              <span class="round2-flow-eff"></span></td>
+          </tr>
+          <tr>
+            <td class="output-title"></td>
+            <td>
+              <div class="output-title">Resource Efficiency (%)</div>
+              <span class="resource-efficiency"></span></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table id="template-1"></table>
+  <table id="template-2"></table>
+  <table id="template-3"></table>
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
